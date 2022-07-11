@@ -2,7 +2,7 @@ package com.example.myapplication
 
 class WeatherPresenter{
 
-    fun getWeather(temperature: String): String{
-        return temperature
+    fun getWeather(): String{
+        return "30C"
     }
 }

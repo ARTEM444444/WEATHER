@@ -18,5 +18,6 @@ class MainActivity : AppCompatActivity() {
         btWeather.setOnClickListener {
             Intent(this, WeatherActivity::class.java).also (::startActivity)
         }
+         
     }
 }

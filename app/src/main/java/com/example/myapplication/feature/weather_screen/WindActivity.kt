@@ -1,4 +1,4 @@
-package com.example.myapplication.feature.weather_screen.ui
+package com.example.myapplication.feature.weather_screen
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

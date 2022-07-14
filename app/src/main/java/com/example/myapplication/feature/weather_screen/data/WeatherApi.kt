@@ -1,6 +1,7 @@
 package com.example.myapplication.feature.weather_screen.data
 
 import com.example.myapplication.API_KEY
+import com.example.myapplication.feature.weather_screen.data.model.WeatherRemoteModel
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query
@@ -8,8 +9,8 @@ import retrofit2.http.Query
 interface WeatherApi {
 
     @GET("weather")
-    fun getWeather(
+   suspend fun getWeather(
         @Query("q") query: String,
     @Query("appid") apiKey: String = API_KEY
-    ) : Response<String>
+    ) : WeatherRemoteModel
 }

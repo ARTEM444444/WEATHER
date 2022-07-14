@@ -25,7 +25,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".WeatherActivity"/>
-        <activity android:name=".feature.weather_screen.ui.WindActivity"/>
+        <activity android:name=".feature.weather_screen.WindActivity"/>
     </application>
 
 </manifest>
